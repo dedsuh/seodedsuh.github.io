@@ -1,0 +1,69 @@
+body {
+	color: green;
+}
+
+#container {
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: 20% 60% 20%;
+	grid-template-areas:
+		"logo namaweb tagline"
+		"isimenu isimenu isimenukanan"
+		"isilink isimain isiads"
+		"isifooter isifooter isifooter";
+	}
+		
+#logo {
+	grid-area: logo;
+	}
+
+#namaweb {
+	grid-area: namaweb;
+	text-align: center;
+	}
+
+#tagline {
+	grid-area: tagline;
+	text-align: right;
+	}
+
+#isimenu {
+	grid-area: isimenu;
+	background-color: lightgreen;
+	}
+
+#isimenukanan {
+	grid-area: isimenukanan;
+	background-color: lightgreen;
+}
+
+#isilink{
+	grid-area: isilink;
+	background-color: lightcyan;
+}
+
+#isimain {
+	grid-area: isimain;
+	background-color: lightblue;
+	}
+
+#isiads {
+	grid-area: isiads;
+	background-color: lightgray;
+	}
+
+#isifooter {
+	grid-area: isifooter;
+	text-align: right;
+	}
+
+a {
+color: blue;
+}
+
+a:hover {color: red;}
+
+#popup {
+	display: none;
+}
+

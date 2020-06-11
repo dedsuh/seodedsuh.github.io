@@ -1,0 +1,15 @@
+html, body {
+	color: red;
+}
+
+p {
+	color: red;
+}
+
+#isiads {
+	display: none;
+}
+
+#isifooter {
+	text-align: right;
+}
