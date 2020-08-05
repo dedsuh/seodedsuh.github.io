@@ -1,2 +1,2 @@
 # dedsuh.github.io
-By dedsuh
+by dedsuh@gmail.com
