@@ -1,9 +1,19 @@
-html, body {
-	color: red;
+#namawebdesktop {
+	display: none;
 }
 
-p {
-	color: red;
+#tagline {
+	display: none;
+	}
+
+#isimenu {
+	display: none;
+	}
+
+#isilink {
+/*
+	display: none;
+*/
 }
 
 #isiads {
@@ -13,3 +23,27 @@ p {
 #isifooter {
 	text-align: right;
 }
+
+/* ******************* */
+/* Menu HP             */
+/* ******************* */
+
+/* menu level 1 */
+#menuhp ul {
+	background-color: lightgreen;
+	padding: 0 2px 0 2px;
+	margin: 0;
+	border: 0;
+	list-style: none;
+	position: relative;
+	display: inline-table;		
+}
+	#menuhp ul li {
+		float: left;
+	}
+		#menuhp ul li a {
+			display: block;
+			padding: 2px 5px 2px 5px;
+			text-decoration: none;
+			color: black;
+		}

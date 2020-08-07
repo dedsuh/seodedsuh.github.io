@@ -1,14 +1,10 @@
-body {
-	color: green;
-}
-
 #container {
 	display: grid;
 	grid-template-rows: auto auto auto auto;
 	grid-template-columns: 20% 60% 20%;
 	grid-template-areas:
 		"logo namaweb tagline"
-		"isimenu isimenu isimenukanan"
+		"isimenu isimenu isimenu"
 		"isilink isimain isiads"
 		"isifooter isifooter isifooter";
 	}
@@ -17,53 +13,142 @@ body {
 	grid-area: logo;
 	}
 
-#namaweb {
+#namawebdesktop {
 	grid-area: namaweb;
 	text-align: center;
+/*	color: green; */
 	}
+
+#namawebmobile {
+	display: none;
+}
 
 #tagline {
 	grid-area: tagline;
 	text-align: right;
 	}
 
+#garisbatas {
+	display: none;
+}
 #isimenu {
 	grid-area: isimenu;
 	background-color: lightgreen;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	}
 
-#isimenukanan {
-	grid-area: isimenukanan;
-	background-color: lightgreen;
-}
+#menuhp {
+	display: none;
+	}
 
 #isilink{
 	grid-area: isilink;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
 	background-color: lightcyan;
+/*	color: green; */
 }
 
 #isimain {
 	grid-area: isimain;
-	background-color: lightblue;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: lightcyan;
+/*	color: green; */
 	}
 
 #isiads {
 	grid-area: isiads;
-	background-color: lightgray;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+	background-color: lightcyan;
+/*	color: green; */
 	}
 
 #isifooter {
 	grid-area: isifooter;
 	text-align: right;
+	color: green;
 	}
 
-a {
-color: blue;
-}
+/* ******************* */
+/* Navigation Isi Menu */
+/* ******************* */
 
-a:hover {color: red;}
-
-#popup {
+nav ul ul {
 	display: none;
 }
 
+nav ul li:hover > ul {
+	display: block;		
+}
+
+/* menu level 1 */
+nav ul {
+	background-color: lightgreen;
+	padding: 0 15px 0 15px;
+	margin: 0;
+	border: 0;
+	list-style: none;
+	position: relative;
+	display: inline-table;		
+}
+	nav ul::before {
+		content: "";
+		clear: both;
+		display: block;
+	}
+	nav ul::after {
+		content: "";
+		clear: both;
+		display: block;
+	}	
+		nav ul li {
+			float: left;
+		}
+		nav ul li:hover {
+			background: #4b545f;
+		}
+		nav ul li:hover a {
+			color: #fff;
+		}
+			nav ul li a {
+				display: block;
+				padding: 4px 15px 4px 15px;
+				text-decoration: none;
+				color: black;
+			}
+
+/* menu level 2 */
+nav ul ul {
+	background: #5f6975;
+	border-radius: 0;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+}
+	nav ul ul li {
+		float: none;
+		position: relative;		
+	}
+		nav ul ul li a {
+			padding: 4px 15px 4px 15px;
+		}
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+
+/* menu level 3 */
+nav ul ul ul {
+	padding: 0;
+	position: absolute;
+	left: 100%;
+	top: 0;		
+}
+		nav ul ul ul li a {
+			padding: 4px 15px 4px 15px;
+		}

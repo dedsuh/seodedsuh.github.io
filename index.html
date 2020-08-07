@@ -1,86 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
+	<title>Panduan Belajar Website Gratis</title>
 
+	<meta name="description" content="Tutorial website for html css and javascript" />
+	<meta name="keywords" content="html, website, javascript, css, tutorial, membuat, belajar, panduan" />
+	<meta name="author" content="deddy" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	
-	<title>Bel-mobile</title>
+	<meta charset="utf-8" />
 
 	<link rel="stylesheet" media="screen and (max-width:1023px)" href="belmobile.css" type="text/css" />
 
 	<link rel="stylesheet" media="screen and (min-width:1024px)" href="desktop.css" type="text/css" /> 
 
-
-	<script src="jquery.min.js" ></script>
 <!--
 	<link rel="stylesheet" href="jquery.mobile.min.css" type="text/css" />
-	<script src="jquery.mobile.min.js" ></script> -->
-
+	<script src="jquery.min.js" ></script> 
+	<script src="jquery.mobile.min.js" ></script> 
 	<script src="belmobilejquery.js"></script>
-	<script src="belmobile.js" ></script>
+	<script src="belmobile.js" ></script> 
+-->
 </head>
 <body>
 	<div id="container">
 		<div id="logo">
+			<img src="dedsuh4.svg" alt="logo dedsuh">
 		</div>
 	
-		<div id="namaweb">
-			<h1>Belajar Web App Mobile</h1>	
+		<div id="namawebdesktop">
+			<h1>Panduan Belajar Website</h1>	
+		</div>
+
+		<div id="namawebmobile">
+			<h1>Panduan Belajar Website</h1>	
 		</div>
 
 		<div id="tagline">
+			<small><i>tutorial</i></small><br>
+			<small><i>html5</i></small><br>
+			<small><i>css3</i></small><br>
+			<small><i>JavaScript</i></small>		
 		</div>
-	
-		<div id="isimenu">	
-			<nav>
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="#">Contact</a>	
-			</nav>
-		</div>
-		
-		<div id="isimenukanan">
-			<select name="">
-				<option value="1">Satu</option>
-				<option value="2">Dua</option>
-				<option value="3">Tiga</option>
-				<option value="4">Empat</option>
-			</select>
-	
-			<select name="">
-				<option value="milk">Milk</option>
-				<optgroup label="Fruits">
-					<option value="bananas">Bananas</option>
-					<option value="strawberry">Strawberry</option>
-				</optgroup>
-				<optgroup label="Vegetables">
-					<option value="carrot">Carrot</option>
-					<option value="zuccini">Zucchini</option>		
-				</optgroup> 
-			</select>
-		</div>	
 
-		<div	id="isilink">
-			<h4> Isi dengan daftar link</h4>
+		<nav id="isimenu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a>Tutorial</a>
+					<ul>
+						<li><a>Internet</a>
+							<ul>
+								<li><a href="intbasic.html">Basic</a></li>
+								<li><a href="isp.html">ISP</a></li>
+								<li><a href="domain.html">Domain</a></li>
+								<li><a href="hosting.html">Hosting</a></li>
+							</ul>
+						</li>
+						<li><a>HTML</a>
+							<ul>
+								<li><a href="html5.html">Html5</a></li>
+							</ul>
+						</li>
+						<li><a>CSS</a>
+							<ul>
+								<li><a href="css3.html">Css3</a></li>
+							</ul>
+						</li>
+						<li><a>JS</a>
+							<ul>
+								<li><a href="javascript.html">Javascript</a></li>
+								<li><a href="jquery.html">Jquery</a></li>
+							</ul>
+						</li>
+						<li><a>Tools</a>
+							<ul>
+								<li><a href="browser.html">Browser</a></li>
+								<li><a href="editor.html">Editor</a></li>
+							</ul>					
+						</li>	
+					</ul>
+				</li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>	
+		<div id="menuhp">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="tutorial.html">Tutorial</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
 		</div>
-		
+
 		<div id="isimain">	
-			<h3>HTML5 CSS3 JS</h3>
-			<p>Mempelajari pembuatan web dengan html5, css3 dan javascript beserta turunannya.</p>
-			<span id="popup">This is a popup</span>
-			<h4 id="foo" onclick="sayhello();">Ini H4 - click me</h4>
-			<a href="#" onclick="hello();" >Alert - click Me</a>
-			<br>
-			<h4 id="dodol" onclick="saydodol();">Ini h4 - jquery - click me</h4>
+			<hr id="garisbatas">
+			<h2>Belajar Membuat Website</h2>
+			<p> 
+			Membuat website itu sebenarnya sangatlah mudah karena dasar website adalah HTML (sebagai struktur/bangunan website) dan CSS 
+			(untuk memperindah/mempercantik penyajian halaman/isi website), karena kedua hal tersebut bukan bahasa pemrograman, 
+			dengan hanya pengetahuan dasar tentang html dan css kita sudah bisa membuat website yang bagus.</p> 
+			<p>
+			Sedangkan Javascipt (untuk tampilan website interaktif) yang merupakan bahasa pemrograman memang tidak semudah html maupun 
+			css dalam mempelajarinya, namun saat ini sudah banyak "Javascript Libraries" (pustaka javascript) seperti JQuery yang 
+			memudahkan kita dalam pemrograman javascript.</p>
+			<p>
+			Untuk membuat website kita harus memahami dahulu tentang <a href="intbasic.html">Internet</a>, 
+			<a href="isp.html">ISP</a>, <a href="domain.html">Domain</a>, <a href="hosting.html">Hosting</a>, 
+			serta software aplikasi perlengkapan kerja dalam pembuatan website seperti <a href="browser.html">Browser</a> 
+			(mozilla firefox, google chrome), <a href="editor.html">Editor</a> html, css, javascript (Bluefish).</p>
+			<p>
+			<a href="html5.html">Mulai membuat website dengan HTML5 sebagai struktur.</a><p>
+			<p>
+			<a href="css3.html">Mulai mempercantik penampilan halaman website dengan CSS3</a>.<p>
+			<p>
+			<a href="javascript.html">Mulai melengkapi halaman website secara interaktif dengan Javascript</a>.<p>
 		</div>
 
 		<div id="isiads">
-			<h4> Isi dengan iklan </h4>	
+<!--
+			<h4>Iklan </h4>	
+-->
+		</div>
+
+		<div	id="isilink">
+			<hr id="garisbatas">
+<!--
+			<h5><a href="intbasic.html">Internet</a></h5>
+			<h5><a href="html5.html">HTML</a></h5>
+			<h5><a href="css3.html">CSS</a></h5>
+			<h5><a href="javascript.html">Javascript</a></h5>
+-->
+			<p><small>
+			Gunakanlah selalu free open software.
+			</small></p>
+			<p><small>		
+			Penulis menggunakan OS: <a href="#">linux Lubuntu</a>, Browser: <a href="#">
+			Mozilla Firefox</a> dan <a href="#">Google Chrome</a>, software editor html, css, js: <a href="#">Bluefish</a>, software 
+			grafis dan image: <a href="">Inkscape</a> (untuk membuat logo, icon), <a href="">GIMP</a> (untuk mengedit foto/image digital).
+			</small></p>
 		</div>
 
 		<div id="isifooter">
-			<small> <i> dev by dedsuh @2020 </i> </small>	
+<!--
+			<hr id="garisbatas">
+-->
+			<small> <i> dev by dedsuh @juni2020 </i> </small>	
 		</div>
 
 	</div>
