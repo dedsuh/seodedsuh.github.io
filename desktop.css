@@ -3,15 +3,6 @@ h1 {
 	font-size: 220%;
 }
 
-p {
-	line-height: 170%;
-	text-align: justify;
-}
-
-#isilink p {
-	font-size: 100%;
-}
-
 #container {
 	display: grid;
 	grid-template-rows: auto auto auto auto;
@@ -48,6 +39,7 @@ p {
 #garisbatas {
 	display: none;
 }
+
 #isimenu {
 	grid-area: isimenu;
 	background-color: lightgreen;
@@ -64,8 +56,9 @@ p {
 	grid-area: isilink;
 	padding-top: 50px;
 	padding-left: 20px;
-	padding-right: 15px;
+	padding-right: 20px;
 	background-color: lightcyan;
+	font-size: 100%;
 /*	color: green; */
 }
 
@@ -74,13 +67,15 @@ p {
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color: lightcyan;
+	line-height: 180%;
+	text-align: justify;	
 /*	color: green; */
 	}
 
 #isiads {
 	grid-area: isiads;
 	padding-top: 10px;
-	padding-left: 15px;
+	padding-left: 20px;
 	padding-right: 20px;
 	background-color: lightcyan;
 /*	color: green; */
