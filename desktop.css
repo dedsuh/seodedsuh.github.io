@@ -1,3 +1,17 @@
+h1 { 
+	font-family: times;
+	font-size: 220%;
+}
+
+p {
+	line-height: 170%;
+	text-align: justify;
+}
+
+#isilink p {
+	font-size: 100%;
+}
+
 #container {
 	display: grid;
 	grid-template-rows: auto auto auto auto;
@@ -15,6 +29,9 @@
 
 #namawebdesktop {
 	grid-area: namaweb;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	text-align: center;
 /*	color: green; */
 	}
@@ -45,9 +62,9 @@
 
 #isilink{
 	grid-area: isilink;
-	padding-top: 10px;
+	padding-top: 50px;
 	padding-left: 20px;
-	padding-right: 10px;
+	padding-right: 15px;
 	background-color: lightcyan;
 /*	color: green; */
 }
@@ -63,7 +80,7 @@
 #isiads {
 	grid-area: isiads;
 	padding-top: 10px;
-	padding-left: 10px;
+	padding-left: 15px;
 	padding-right: 20px;
 	background-color: lightcyan;
 /*	color: green; */
