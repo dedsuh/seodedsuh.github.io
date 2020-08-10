@@ -18,6 +18,10 @@ h1 {
 	grid-area: logo;
 	}
 
+#logo img {
+	width: 70%
+	}
+
 #namawebdesktop {
 	grid-area: namaweb;
 	margin: 0;
@@ -74,11 +78,15 @@ h1 {
 
 #isiads {
 	grid-area: isiads;
-	padding-top: 10px;
+	padding-top: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
 	background-color: lightcyan;
 /*	color: green; */
+	}
+	
+#isiads img {
+	width: 100%;
 	}
 
 #isifooter {
