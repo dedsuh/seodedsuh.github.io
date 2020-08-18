@@ -12,10 +12,11 @@
 	<link rel="stylesheet" media="screen and (max-width:768px)" href="belmobile.css" type="text/css" />
 
 	<link rel="stylesheet" media="screen and (min-width:769px)" href="desktop.css" type="text/css" /> 
-	
+
+	<script src="jquery-3.5.1.min.js" ></script>
+	<script src="animasi.js" ></script>		
 <!--
 	<link rel="stylesheet" href="jquery.mobile.min.css" type="text/css" />
-	<script src="jquery.min.js" ></script> 
 	<script src="jquery.mobile.min.js" ></script> 
 	<script src="belmobilejquery.js"></script>
 	<script src="belmobile.js" ></script> 
@@ -24,17 +25,18 @@
 <body>
 	<div id="container">
 		<div id="logo">
-			<img src="dedsuh4.png" alt="logo dedsuh">
+			<a href="http://dedsuh.github.io" target="_blank" rel="noopener" rel="noopener noreferrer">
+			<img src="dedsuh4.png" alt="DS Web developer - dedsuh"></a>
 		</div>
 	
-		<div id="namawebdesktop">
+		<div id="namawebdesktop"  style="display: none" >
 			<h1>Panduan Belajar Website</h1>	
 		</div>
-
+<!--
 		<div id="namawebmobile">
 			<h1>Panduan Belajar Website</h1>	
 		</div>
-
+-->
 		<div id="tagline">
 			<small><i>tutorial</i></small><br>
 			<small><i>html5</i></small><br>
@@ -130,20 +132,6 @@
 			<a href="javascript.html">Mulai melengkapi halaman website secara interaktif dengan Javascript</a>.<p>
 		</div>
 
-		<div id="isiads">
-<!--
-			<h4>Iklan </h4>	
--->
-			<a href="https://inkscape.org/" target="_blank" rel="noopener" rel="noopener noreferrer">
-			<img src="inkscape.png" alt="inkscape"></a>
-			<p></p>
-			<a href="https://www.wampserver.com/" target="_blank" rel="noopener" rel="noopener noreferrer">
-			<img src="wamp.png" alt="wamp"></a>
-			<p></p>
-			<a href="http://bluefish.openoffice.nl/index.html" target="_blank" rel="noopener" rel="noopener noreferrer">
-			<img src="bluefish.png" alt="bluefish"></a>
-		</div>
-
 		<div	id="isilink">
 			<hr id="garisbatas">
 
@@ -174,6 +162,48 @@
 			</small></p>
 		</div>
 
+		<div id="isiads">
+<!--
+			<h4>Iklan </h4>	
+-->	
+			<div id="img1">
+				<a href="https://inkscape.org/" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="inkscape.png" alt="inkscape"></a>
+			</div>
+			<div id="img2">
+				<a href="https://www.wampserver.com/" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="wamp.png" alt="wamp"></a>
+			</div>
+			<div id="img3">
+				<a href="http://bluefish.openoffice.nl/index.html" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="bluefish.png" alt="bluefish"></a>
+			</div>
+			<div id="img4">
+				<a href="https://jquery.com/" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="jquery.png" alt="jquery"></a>
+			</div>
+			<div id="img5">
+				<a href="https://www.mysql.com/" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="mysql.png" alt="mysql"></a>
+			</div>
+			<div id="img6">
+				<a href="https://php.net/" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="php.png" alt="php"></a>
+			</div>
+			<div id="img7">
+				<a href="https://www.sqlite.org/" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="sqlite.png" alt="sqlite"></a>
+			</div>
+			<div id="img8">
+				<a href="https://www.gimp.org/" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="gimp.png" alt="gimp"></a>
+			</div>
+			<div id="img9">
+				<a href="https://lubuntu.me" target="_blank" rel="noopener" rel="noopener noreferrer">
+					<img src="lubuntu.png" alt="lubuntu"></a>
+			</div>
+		</div>
+
 		<div id="isifooter">
 <!--
 			<hr id="garisbatas">
@@ -182,5 +212,6 @@
 		</div>
 
 	</div>
+
 	</body>
 </html>

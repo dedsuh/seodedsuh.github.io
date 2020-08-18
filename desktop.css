@@ -1,6 +1,6 @@
 h1 { 
 	font-family: times;
-	font-size: 220%;
+	font-size: 250%;
 }
 
 #container {
@@ -16,10 +16,12 @@ h1 {
 		
 #logo {
 	grid-area: logo;
+	margin-top: 4px;
+	margin-bottom: 8px;
 	}
 
 #logo img {
-	width: 70%
+	width: 75%
 	}
 
 #namawebdesktop {
@@ -89,7 +91,34 @@ h1 {
 #isiads img {
 	width: 100%;
 	}
-
+		#img1 {
+ 			display: none; 	
+ 		}
+		#img2 {
+ 			display: none; 	
+ 		}
+		#img3 {
+ 			display: none; 	
+ 		}
+		#img4 {
+ 			display: none; 	
+ 		}
+		#img5 {
+ 			display: none; 	
+ 		}
+		#img6 {
+ 			display: none; 	
+ 		}
+		#img7 {
+ 			display: none;
+ 		}
+		#img8 {
+ 			display: none; 	
+ 		}
+		#img9 {
+ 			display: none;
+ 		}
+ 		
 #isifooter {
 	grid-area: isifooter;
 	text-align: right;
